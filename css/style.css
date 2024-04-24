@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    text-align: center;
+    color: red;
+    background-color: white;
+    font-size: 60px;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(38, 5, 5);
+    text-align: center;
+    margin-top: -20px;
+}
+
+label, div {
+    font-size: 20px;
+    display: grid;
+    justify-items: center;
+    margin-top: -1px;
+}
+
+#plazo, #capital {
+    width: 275px;
+}
+
+.edad {
+    display: inline-block;
+}
+
+fieldset {
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    
+}
+
+.pSimulacion, .pOpciones {
+    font-weight: bold;
+    text-align: center;
+}
+
+.bienvenidos, .calculos, .opcInv {
+    color: white;
+    font-size: 18px;
+    background-color: #530071c9;
+    width: 400px;
+    display: block;
+
+}
+
+#bienvenida, #plazoFijo, #res {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.error {
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    width: 400px;
+}
+
+.formulario {
+    width: 50rem;
+    letter-spacing: 2px;
+}
+
+h3 {
+    background-color: aqua;
+    color: black;
+    width: 10rem;
+    text-align: center;
+    border: solid black 1px;
+}
+
+#botonEnviar, #simular, #consultas {
+    cursor: pointer;
+    border: solid rgb(63, 1, 1) 2px;
+    background-color: rgb(143, 8, 44);
+    color: white;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+#btnBeneficios {
+    border:solid;
+    font-size: 2rem;
+    font-family:fantasy;
+    background-color: rgb(89, 0, 24);
+    color: white;
+    cursor: pointer;
+
+}
+
+#btnBeneficios:hover {
+    color:  rgb(89, 0, 24);
+    background-color: white;
+}
+
+
+#nombreCompleto, #documento, #email, #otrasInversiones {
+    width: 300px;
+    margin-right: 10px;
+}

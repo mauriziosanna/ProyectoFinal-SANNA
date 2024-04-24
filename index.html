@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo banco.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <h1 id="titulo">BANCO SANTANDER RÍO</h1>
+    <h2>¿Estás pensando en una jubilación temprana? Nosotros te ayudamos.</h2>
+
+    <div class="divForm">
+
+        <form id="formularioUsuario">
+            <fieldset class="formulario">
+
+                <div>
+                    <label for="nombreCompleto">Ingresá tu nombre completo</label>
+                    <input autocomplete="off" id="nombreCompleto" type="text" required>
+                </div>
+
+                <div>
+                    <label for="documento">Ingresá tu número de DNI</label>
+                    <input autocomplete="off" id="documento" type="number" required>
+                </div>
+
+                <div>
+                    <label for="email">Ingresá tu correo electrónico</label>
+                    <input autocomplete="off" id="email" type="email" required>
+                </div>
+
+                <div><input id="botonEnviar" type="submit" value="Enviar"></div>
+            </fieldset>
+
+        </form>
+
+    </div>
+
+    <div id="bienvenida"></div>
+
+    <p class="pSimulacion">Simulá de manera de gratuita tus rendimientos en plazo fijo a interés simple con solo un click.</p>
+
+    <div class="divForm">
+
+        <form id="formularioPF">
+            <input type="number" id="capital" placeholder="Ingresá el capital a invertir">
+            <input type="number" id="plazo" placeholder="Ingresá la cantidad de días de inversión">
+            <div class="divForm"><input type="submit" value="Simular" id="simular"></div>
+
+        </form>
+
+    </div>
+
+    <div id="plazoFijo"> </div>
+
+    <p class="pOpciones">Escriba FCI, TP o INV para explorar otras alternativas de inversión.</p>
+    <div class="divForm">
+
+        <input id="otrasInversiones" type="text">
+        <input type="submit" value="Realizar consulta" id="consultas">
+    </div>
+    <p id="res"></p>
+
+    <div divForm>
+        <button id="btnBeneficios" type="submit">Beneficios de operar con nosotros</button>
+    </div>
+
+    <div id="listadoBeneficios"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+[
+    {
+        "local" : "AKIABARA",
+        "beneficio": "30% de ahorro + 3 cuotas sin interés.",
+        "dias":"Lunes y Miércoles."
+        
+    },
+    {
+        "local" : "AlMundo",
+        "beneficio": "10% de ahorro + 6 cuotas sin interés.",
+        "dias":"Martes y Jueves."
+    },
+    {
+        "local" : "Grido",
+        "beneficio": "2x1 cucuruchos de 2 bochas.",
+        "dias":"Viernes y Sábados."
+    },
+    {
+        "local" : "El Ateneo",
+        "beneficio": "15% de ahorro. Tope de reintegro: $20.000 mensual.",
+        "dias":"Lunes a Viernes."
+        
+    },
+    {
+        "local" : "Almacén de Pizzas",
+        "beneficio": "25% de ahorro. Sin tope de reintegro.",
+        "dias":"Lunes a Domingos."
+    },
+    {
+        "local" : "Carrefour",
+        "beneficio": "25% de ahorro. Tope de reintegro: $10.000 mensual.",
+        "dias":"Lunes a Miércoles."
+    },
+    {
+        "local" : "Farmacity",
+        "beneficio": "30% de ahorro. Tope de reintegro: $6.000 mensual.",
+        "dias":"Martes."
+    }
+]
